@@ -780,11 +780,18 @@ Now the directories <em>dist</em> and <em>node_modules</em> will be skipped when
 
 As usual, you can perform the linting either from the command line with the command
 
+
 ```bash
-npm run Lint
+npm run lint
 ```
 
 or using the editor's Eslint plugin.
+
+If you encounter an error saying ```Environment key "jest/globals" is unknown``` , you can install <em>eslint-plugin-jest</em> module as a development dependency and it will fix the error.
+
+```bash
+ npm install eslint-plugin-jest --save-dev
+```
 
 Component _Togglable_ causes a nasty-looking warning <i>Component definition is missing display name</i>:
 
