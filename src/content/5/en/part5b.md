@@ -617,7 +617,7 @@ The backend has to be updated too to handle the user reference.
 
 #### 5.10: Blog list frontend, step10
 
-Modify the application to list the blog posts by the number of <i>likes</i>. Sorting the blog posts can be done with the array [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method.
+Modify the application to list the blog posts by the number of <i>likes</i> with the blog with the most likes being first. Sorting the blog posts can be done with the array [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method.
 
 #### 5.11: Blog list frontend, step11
 
